@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define WEBSOCKET_WebSocketBase_generated_h
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_35_DELEGATE \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_35_DELEGATE \
 struct _Script_WebSocket_eventWebSocketRecieve_Parms \
 { \
 	FString data; \
@@ -26,21 +26,21 @@ static inline void FWebSocketRecieve_DelegateWrapper(const FMulticastScriptDeleg
 }
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_34_DELEGATE \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_34_DELEGATE \
 static inline void FWebSocketConnected_DelegateWrapper(const FMulticastScriptDelegate& WebSocketConnected) \
 { \
 	WebSocketConnected.ProcessMulticastDelegate<UObject>(NULL); \
 }
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_33_DELEGATE \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_33_DELEGATE \
 static inline void FWebSocketClosed_DelegateWrapper(const FMulticastScriptDelegate& WebSocketClosed) \
 { \
 	WebSocketClosed.ProcessMulticastDelegate<UObject>(NULL); \
 }
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_32_DELEGATE \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_32_DELEGATE \
 struct _Script_WebSocket_eventWebSocketConnectError_Parms \
 { \
 	FString error; \
@@ -53,7 +53,7 @@ static inline void FWebSocketConnectError_DelegateWrapper(const FMulticastScript
 }
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_RPC_WRAPPERS \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execClose) \
 	{ \
@@ -73,7 +73,7 @@ static inline void FWebSocketConnectError_DelegateWrapper(const FMulticastScript
 	}
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execClose) \
 	{ \
@@ -93,7 +93,7 @@ static inline void FWebSocketConnectError_DelegateWrapper(const FMulticastScript
 	}
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_INCLASS_NO_PURE_DECLS \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUWebSocketBase(); \
 	friend WEBSOCKET_API class UClass* Z_Construct_UClass_UWebSocketBase(); \
@@ -103,7 +103,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_INCLASS \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_INCLASS \
 private: \
 	static void StaticRegisterNativesUWebSocketBase(); \
 	friend WEBSOCKET_API class UClass* Z_Construct_UClass_UWebSocketBase(); \
@@ -113,7 +113,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_STANDARD_CONSTRUCTORS \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UWebSocketBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UWebSocketBase) \
@@ -126,7 +126,7 @@ private: \
 public:
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_ENHANCED_CONSTRUCTORS \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UWebSocketBase(UWebSocketBase&&); \
@@ -137,32 +137,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UWebSocketBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UWebSocketBase)
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_PRIVATE_PROPERTY_OFFSET
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_43_PROLOG
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_GENERATED_BODY_LEGACY \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_PRIVATE_PROPERTY_OFFSET
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_43_PROLOG
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_PRIVATE_PROPERTY_OFFSET \
-	OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_RPC_WRAPPERS \
-	OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_INCLASS \
-	OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_STANDARD_CONSTRUCTORS \
+	CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_PRIVATE_PROPERTY_OFFSET \
+	CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_RPC_WRAPPERS \
+	CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_INCLASS \
+	CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_GENERATED_BODY \
+#define CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_PRIVATE_PROPERTY_OFFSET \
-	OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
-	OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_INCLASS_NO_PURE_DECLS \
-	OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_ENHANCED_CONSTRUCTORS \
+	CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_PRIVATE_PROPERTY_OFFSET \
+	CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+	CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_INCLASS_NO_PURE_DECLS \
+	CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h_46_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID OCV_Network_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h
+#define CURRENT_FILE_ID CyberVitesse_Plugins_WebSocket_Source_WebSocket_Public_WebSocketBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
