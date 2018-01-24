@@ -1,0 +1,8 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+"C:\Users\Zirk\Documents\GitHub\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Development\WebSocket\Module.WebSocket.cpp.obj"
+"C:\Users\Zirk\Documents\GitHub\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Development\WebSocket\Module.WebSocket.gen.cpp.obj"
+"C:\Users\Zirk\Documents\GitHub\CyberVitesse\Intermediate\Build\Win64\UE4\Development\WebSocket\PCLaunch.rc.res"
+/OUT:"C:\Users\Zirk\Documents\GitHub\CyberVitesse\Plugins\WebSocket\Binaries\Win64\UE4-WebSocket.lib"
