@@ -18,6 +18,7 @@
 *.so
 *.dylib
 *.dll
+!UE4Editor-PopcornFX*
 
 # Fortran module files
 *.mod
