@@ -17,7 +17,7 @@ struct FVector2D;
 #endif
 #define POPCORNFX_PopcornFXAttributeFunctions_generated_h
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_RPC_WRAPPERS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetAttributeAsInt4) \
 	{ \
@@ -320,7 +320,7 @@ struct FVector2D;
 	}
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetAttributeAsInt4) \
 	{ \
@@ -623,7 +623,7 @@ struct FVector2D;
 	}
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_INCLASS_NO_PURE_DECLS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPopcornFXAttributeFunctions(); \
 	friend POPCORNFX_API class UClass* Z_Construct_UClass_UPopcornFXAttributeFunctions(); \
@@ -633,7 +633,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_INCLASS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_INCLASS \
 private: \
 	static void StaticRegisterNativesUPopcornFXAttributeFunctions(); \
 	friend POPCORNFX_API class UClass* Z_Construct_UClass_UPopcornFXAttributeFunctions(); \
@@ -643,7 +643,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_STANDARD_CONSTRUCTORS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPopcornFXAttributeFunctions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPopcornFXAttributeFunctions) \
@@ -656,7 +656,7 @@ private: \
 public:
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_ENHANCED_CONSTRUCTORS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPopcornFXAttributeFunctions(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -669,32 +669,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPopcornFXAttributeFunctions); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPopcornFXAttributeFunctions)
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_PRIVATE_PROPERTY_OFFSET
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_20_PROLOG
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_GENERATED_BODY_LEGACY \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_PRIVATE_PROPERTY_OFFSET
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_20_PROLOG
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_PRIVATE_PROPERTY_OFFSET \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_RPC_WRAPPERS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_INCLASS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_STANDARD_CONSTRUCTORS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_PRIVATE_PROPERTY_OFFSET \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_RPC_WRAPPERS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_INCLASS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_GENERATED_BODY \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_PRIVATE_PROPERTY_OFFSET \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_INCLASS_NO_PURE_DECLS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_ENHANCED_CONSTRUCTORS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_PRIVATE_PROPERTY_OFFSET \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_INCLASS_NO_PURE_DECLS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h_23_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PopcornFXAttributeFunctions."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h
+#define CURRENT_FILE_ID CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeFunctions_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
