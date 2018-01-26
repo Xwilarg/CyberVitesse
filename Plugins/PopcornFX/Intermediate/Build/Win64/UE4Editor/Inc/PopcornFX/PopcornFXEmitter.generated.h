@@ -15,7 +15,7 @@ struct FVector;
 #endif
 #define POPCORNFX_PopcornFXEmitter_generated_h
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_40_DELEGATE \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_40_DELEGATE \
 struct _Script_PopcornFX_eventPopcornFXEmitterTerminateSignature_Parms \
 { \
 	UPopcornFXEmitterComponent* EmitterComponent; \
@@ -32,7 +32,7 @@ static inline void FPopcornFXEmitterTerminateSignature_DelegateWrapper(const FMu
 }
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_33_DELEGATE \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_33_DELEGATE \
 struct _Script_PopcornFX_eventPopcornFXEmitterStopSignature_Parms \
 { \
 	UPopcornFXEmitterComponent* EmitterComponent; \
@@ -49,7 +49,7 @@ static inline void FPopcornFXEmitterStopSignature_DelegateWrapper(const FMultica
 }
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_25_DELEGATE \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_25_DELEGATE \
 struct _Script_PopcornFX_eventPopcornFXEmitterStartSignature_Parms \
 { \
 	UPopcornFXEmitterComponent* EmitterComponent; \
@@ -66,7 +66,7 @@ static inline void FPopcornFXEmitterStartSignature_DelegateWrapper(const FMultic
 }
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_RPC_WRAPPERS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnInterpToggle) \
 	{ \
@@ -78,7 +78,7 @@ static inline void FPopcornFXEmitterStartSignature_DelegateWrapper(const FMultic
 	}
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnInterpToggle) \
 	{ \
@@ -90,7 +90,7 @@ static inline void FPopcornFXEmitterStartSignature_DelegateWrapper(const FMultic
 	}
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_INCLASS_NO_PURE_DECLS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPopcornFXEmitter(); \
 	friend POPCORNFX_API class UClass* Z_Construct_UClass_APopcornFXEmitter(); \
@@ -100,7 +100,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_INCLASS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_INCLASS \
 private: \
 	static void StaticRegisterNativesAPopcornFXEmitter(); \
 	friend POPCORNFX_API class UClass* Z_Construct_UClass_APopcornFXEmitter(); \
@@ -110,7 +110,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_STANDARD_CONSTRUCTORS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APopcornFXEmitter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APopcornFXEmitter) \
@@ -123,7 +123,7 @@ private: \
 public:
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_ENHANCED_CONSTRUCTORS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APopcornFXEmitter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -136,32 +136,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APopcornFXEmitter); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APopcornFXEmitter)
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_PRIVATE_PROPERTY_OFFSET
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_42_PROLOG
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_GENERATED_BODY_LEGACY \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_PRIVATE_PROPERTY_OFFSET
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_42_PROLOG
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_PRIVATE_PROPERTY_OFFSET \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_RPC_WRAPPERS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_INCLASS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_STANDARD_CONSTRUCTORS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_PRIVATE_PROPERTY_OFFSET \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_RPC_WRAPPERS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_INCLASS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_GENERATED_BODY \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_PRIVATE_PROPERTY_OFFSET \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_RPC_WRAPPERS_NO_PURE_DECLS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_INCLASS_NO_PURE_DECLS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_ENHANCED_CONSTRUCTORS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_PRIVATE_PROPERTY_OFFSET \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_RPC_WRAPPERS_NO_PURE_DECLS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_INCLASS_NO_PURE_DECLS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h_45_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PopcornFXEmitter."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h
+#define CURRENT_FILE_ID CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXEmitter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

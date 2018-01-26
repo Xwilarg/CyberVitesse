@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define POPCORNFX_PopcornFXTypes_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXTypes_h
+#define CURRENT_FILE_ID CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXTypes_h
 
 
 #define FOREACH_ENUM_EPOPCORNFXPARTICLEFIELDTYPE(op) \

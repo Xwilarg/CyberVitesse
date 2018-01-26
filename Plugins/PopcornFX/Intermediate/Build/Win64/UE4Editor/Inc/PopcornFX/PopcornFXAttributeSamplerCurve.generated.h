@@ -14,7 +14,7 @@ class UCurveBase;
 #endif
 #define POPCORNFX_PopcornFXAttributeSamplerCurve_generated_h
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_RPC_WRAPPERS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetCurve) \
 	{ \
@@ -36,7 +36,7 @@ class UCurveBase;
 	}
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetCurve) \
 	{ \
@@ -58,7 +58,7 @@ class UCurveBase;
 	}
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_INCLASS_NO_PURE_DECLS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPopcornFXAttributeSamplerCurve(); \
 	friend POPCORNFX_API class UClass* Z_Construct_UClass_UPopcornFXAttributeSamplerCurve(); \
@@ -68,7 +68,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_INCLASS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_INCLASS \
 private: \
 	static void StaticRegisterNativesUPopcornFXAttributeSamplerCurve(); \
 	friend POPCORNFX_API class UClass* Z_Construct_UClass_UPopcornFXAttributeSamplerCurve(); \
@@ -78,7 +78,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_STANDARD_CONSTRUCTORS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPopcornFXAttributeSamplerCurve(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPopcornFXAttributeSamplerCurve) \
@@ -91,7 +91,7 @@ private: \
 public:
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_ENHANCED_CONSTRUCTORS \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPopcornFXAttributeSamplerCurve(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -104,32 +104,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPopcornFXAttributeSamplerCurve); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPopcornFXAttributeSamplerCurve)
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_PRIVATE_PROPERTY_OFFSET
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_43_PROLOG
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_GENERATED_BODY_LEGACY \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_PRIVATE_PROPERTY_OFFSET
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_43_PROLOG
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_PRIVATE_PROPERTY_OFFSET \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_RPC_WRAPPERS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_INCLASS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_STANDARD_CONSTRUCTORS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_PRIVATE_PROPERTY_OFFSET \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_RPC_WRAPPERS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_INCLASS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_GENERATED_BODY \
+#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_PRIVATE_PROPERTY_OFFSET \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_INCLASS_NO_PURE_DECLS \
-	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_ENHANCED_CONSTRUCTORS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_PRIVATE_PROPERTY_OFFSET \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_INCLASS_NO_PURE_DECLS \
+	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h_46_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PopcornFXAttributeSamplerCurve."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h
+#define CURRENT_FILE_ID CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerCurve_h
 
 
 #define FOREACH_ENUM_EATTRIBUTESAMPLERCURVEDIMENSION(op) \
