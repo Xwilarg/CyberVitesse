@@ -23,12 +23,12 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Source\PopcornFXEditor\Private
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Source\PopcornFX\Private
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Source
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Source\PopcornFXEditor\Public
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Inc\PopcornFXEditor
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Source\PopcornFXEditor
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Source\PopcornFXEditor\Private
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Source\PopcornFX\Private
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Source
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Source\PopcornFXEditor\Public
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Inc\PopcornFXEditor
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Source\PopcornFXEditor
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -49,12 +49,12 @@
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\UObject"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Windows"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core"
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\PopcornFX_Runtime_SDK\source_tree\hellheaven
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\PopcornFX_Runtime_SDK\source_tree\hellheaven\include
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\PopcornFX_Runtime_SDK\source_tree\hellheaven\include\license\UE4
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Source\PopcornFX\Public
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Inc\PopcornFX
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Source\PopcornFX
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\PopcornFX_Runtime_SDK\source_tree\hellheaven
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\PopcornFX_Runtime_SDK\source_tree\hellheaven\include
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\PopcornFX_Runtime_SDK\source_tree\hellheaven\include\license\UE4
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Source\PopcornFX\Public
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Inc\PopcornFX
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Source\PopcornFX
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Engine\Classes"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Engine\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Engine\Public\AI"
@@ -367,9 +367,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h"
 /Yu"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h"
 /Fp"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.h.pch"
-"C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXEditor\Module.PopcornFXEditor.gen.cpp"
-/FI"C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXEditor\Definitions.PopcornFXEditor.h"
-/Fo"C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXEditor\Module.PopcornFXEditor.gen.cpp.obj"
+"C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXEditor\Module.PopcornFXEditor.gen.cpp"
+/FI"C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXEditor\Definitions.PopcornFXEditor.h"
+/Fo"C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXEditor\Module.PopcornFXEditor.gen.cpp.obj"
 /TP
 /GR-
 /W4

@@ -24,8 +24,8 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Source
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Source\PopcornFXOnDefault
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Source
+/I C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Source\PopcornFXOnDefault
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -358,9 +358,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXOnDefault\Module.PopcornFXOnDefault.cpp"
-/FI"C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXOnDefault\Definitions.PopcornFXOnDefault.h"
-/Fo"C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXOnDefault\Module.PopcornFXOnDefault.cpp.obj"
+"C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXOnDefault\Module.PopcornFXOnDefault.cpp"
+/FI"C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXOnDefault\Definitions.PopcornFXOnDefault.h"
+/Fo"C:\Users\Shaps\Perforce\CyberVitesse\depot\Plugins\PopcornFX\Intermediate\Build\Win64\UE4Editor\Development\PopcornFXOnDefault\Module.PopcornFXOnDefault.cpp.obj"
 /TP
 /GR-
 /W4

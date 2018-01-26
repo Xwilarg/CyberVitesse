@@ -1,0 +1,11 @@
+Version = 1.12.3.42400;
+COvenBakeConfig_Mesh	$LOCAL$/Resource
+{
+	MD5 = "2686fbad625890263cbed003f4ff06f1";
+	TexturePath = "Textures/";
+	ImportAnimation = true;
+	ImportSkeleton = true;
+}
+CNEdEditorMesh_Data	$LOCAL$/EDITOR
+{
+}

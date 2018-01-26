@@ -1,0 +1,133 @@
+Version = 1.12.2.40448;
+CParticleEffect	$LOCAL$/Resource
+{
+	EditorInfosPosition = int2(73, 52);
+	OnSpawn = "$LOCAL$/Spawner";
+	CustomAttributes = "$LOCAL$/_GlobalAttributes";
+}
+CNEdEditorParticle_Data	$LOCAL$/EDITOR
+{
+	EditorInfosPosition = int2(413, -144);
+	Position = float3(0.0000000e+000, 5.0000000e-001, 2.0000000e+000);
+	Backdrops = "$LOCAL$/_BackdropList";
+}
+CActionFactoryWithChilds	$LOCAL$/Spawner
+{
+	EditorInfosPosition = int2(-162, -81);
+	ChildList = 
+	{
+		"$LOCAL$/Layer_1",
+	};
+}
+CParticleAttributeList	$LOCAL$/_GlobalAttributes
+{
+	EditorInfosPosition = int2(-599, -20);
+}
+CNEdEditorBackdrop_List	$LOCAL$/_BackdropList
+{
+	EditorInfosPosition = int2(125, -433);
+	BackgroundLayers2D = 
+	{
+		"$LOCAL$/CNEdEditorBackdrop_Brush_9A913525",
+	};
+	SceneLayers3D = 
+	{
+		"$LOCAL$/CNEdEditorBackdrop_Grid_499DEFF3",
+		"$LOCAL$/_Backdrop_Light",
+	};
+}
+CNEdEditorBackdrop_Brush	$LOCAL$/CNEdEditorBackdrop_Brush_9A913525
+{
+	EditorInfosPosition = int2(-27, -485);
+	LayerName = "Layer_Brush";
+}
+CNEdEditorBackdrop_Light	$LOCAL$/_Backdrop_Light
+{
+	LayerName = "GlobalLight";
+	Position = float3(1.1233553e+002, 2.8270447e+002, 2.2297581e+002);
+	EulerOrientation = float3(-4.8550171e+001, 2.6739031e+001, -9.5600376e-007);
+	LightFactory = "$LOCAL$/_Backdrop_Light_Factory";
+	LightDistance = 3.7717276e+002;
+}
+CNEdEditorLightFactory	$LOCAL$/_Backdrop_Light_Factory
+{
+	NearClipPlane = 1.0000000e+002;
+	LightSize = 9.9999998e-003;
+	SpotFalloff = 8.8541701e-002;
+	Magnitude = 1.0000000e+005;
+}
+CNEdEditorBackdrop_Grid	$LOCAL$/CNEdEditorBackdrop_Grid_499DEFF3
+{
+	LayerName = "Grid_1";
+	MainColor = float4(1.5000001e-001, 1.5000001e-001, 1.5000001e-001, 1.0000000e+000);
+	SecondaryColor = float4(3.9999999e-002, 3.9999999e-002, 3.9999999e-002, 1.0000000e+000);
+	InfinitePlaneCollision = true;
+}
+CActionFactoryParticleSpawnerBase	$LOCAL$/Layer_1
+{
+	Descriptor = "$LOCAL$/CParticleDescriptor_E711247B";
+	SpawnCountMode = TotalParticleCount;
+	SpawnCount = 2.0000000e+001;
+}
+CParticleDescriptor	$LOCAL$/CParticleDescriptor_E711247B
+{
+	Renderer = "$LOCAL$/CParticleRenderer_Ribbon_ACBB7489";
+	CustomFields = 
+	{
+		"$LOCAL$/CParticleFieldDeclaration_F9E6D425",
+		"$LOCAL$/CParticleFieldDeclaration_700A7980",
+		"$LOCAL$/CParticleFieldDeclaration_FEDDD643",
+	};
+	SpawnEvaluator = "$LOCAL$/CCompilerSyntaxNodeExpression_58830F5A";
+	States = 
+	{
+		"$LOCAL$/CParticleState_33963DFF",
+	};
+}
+CCompilerSyntaxNodeExpression	$LOCAL$/CCompilerSyntaxNodeExpression_58830F5A
+{
+	Expression = "function void	Eval()
+{
+	Life = infinity;
+	Size = 1;
+	Position = float3suf(sin(spawner.LifeRatio*pi*2),Size, cos(spawner.LifeRatio*pi*2));
+	Color = float4(1.0);
+	SideAxis = float3suf(0,1,0);
+	UField = spawner.LifeRatio;
+}
+";
+}
+CParticleFieldDeclaration	$LOCAL$/CParticleFieldDeclaration_F9E6D425
+{
+	FieldName = "Color";
+	FieldType = float4;
+}
+CParticleState	$LOCAL$/CParticleState_33963DFF
+{
+	Evolvers = 
+	{
+		"$LOCAL$/LocalSpace_1",
+	};
+}
+CParticleRenderer_Ribbon	$LOCAL$/CParticleRenderer_Ribbon_ACBB7489
+{
+	CustomName = "Ribbon";
+	Diffuse = "Textures/T_Reactor.tga";
+	TextureUField = "UField";
+	BillboardMode = SideAxisAligned;
+	AxisField = "SideAxis";
+}
+CParticleFieldDeclaration	$LOCAL$/CParticleFieldDeclaration_700A7980
+{
+	FieldName = "SideAxis";
+	FieldType = float3;
+	TransformFilter = rotate;
+}
+CParticleFieldDeclaration	$LOCAL$/CParticleFieldDeclaration_FEDDD643
+{
+	FieldName = "UField";
+}
+CParticleEvolver_Localspace	$LOCAL$/LocalSpace_1
+{
+	CustomName = "Localspace";
+}

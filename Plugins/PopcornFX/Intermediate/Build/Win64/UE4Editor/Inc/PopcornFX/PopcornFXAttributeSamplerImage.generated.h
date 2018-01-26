@@ -14,7 +14,7 @@ class UTexture2D;
 #endif
 #define POPCORNFX_PopcornFXAttributeSamplerImage_generated_h
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_RPC_WRAPPERS \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetTexture) \
 	{ \
@@ -26,7 +26,7 @@ class UTexture2D;
 	}
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetTexture) \
 	{ \
@@ -38,7 +38,7 @@ class UTexture2D;
 	}
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_INCLASS_NO_PURE_DECLS \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPopcornFXAttributeSamplerImage(); \
 	friend POPCORNFX_API class UClass* Z_Construct_UClass_UPopcornFXAttributeSamplerImage(); \
@@ -48,7 +48,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_INCLASS \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_INCLASS \
 private: \
 	static void StaticRegisterNativesUPopcornFXAttributeSamplerImage(); \
 	friend POPCORNFX_API class UClass* Z_Construct_UClass_UPopcornFXAttributeSamplerImage(); \
@@ -58,7 +58,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_STANDARD_CONSTRUCTORS \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPopcornFXAttributeSamplerImage(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPopcornFXAttributeSamplerImage) \
@@ -71,7 +71,7 @@ private: \
 public:
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_ENHANCED_CONSTRUCTORS \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPopcornFXAttributeSamplerImage(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -84,32 +84,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPopcornFXAttributeSamplerImage); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPopcornFXAttributeSamplerImage)
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_PRIVATE_PROPERTY_OFFSET
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_30_PROLOG
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_GENERATED_BODY_LEGACY \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_PRIVATE_PROPERTY_OFFSET
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_30_PROLOG
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_PRIVATE_PROPERTY_OFFSET \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_RPC_WRAPPERS \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_INCLASS \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_STANDARD_CONSTRUCTORS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_PRIVATE_PROPERTY_OFFSET \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_RPC_WRAPPERS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_INCLASS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_GENERATED_BODY \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_PRIVATE_PROPERTY_OFFSET \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_INCLASS_NO_PURE_DECLS \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_ENHANCED_CONSTRUCTORS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_PRIVATE_PROPERTY_OFFSET \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_RPC_WRAPPERS_NO_PURE_DECLS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_INCLASS_NO_PURE_DECLS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h_33_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PopcornFXAttributeSamplerImage."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h
+#define CURRENT_FILE_ID depot_Plugins_PopcornFX_Source_PopcornFX_Public_PopcornFXAttributeSamplerImage_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

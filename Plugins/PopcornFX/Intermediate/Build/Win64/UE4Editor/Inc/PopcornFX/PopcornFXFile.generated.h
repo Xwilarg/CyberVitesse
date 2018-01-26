@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define POPCORNFX_PopcornFXFile_generated_h
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_RPC_WRAPPERS
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_RPC_WRAPPERS_NO_PURE_DECLS
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_INCLASS_NO_PURE_DECLS \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_RPC_WRAPPERS
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_RPC_WRAPPERS_NO_PURE_DECLS
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPopcornFXFile(); \
 	friend POPCORNFX_API class UClass* Z_Construct_UClass_UPopcornFXFile(); \
@@ -26,7 +26,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<UPopcornFXFile*>(this); }
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_INCLASS \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_INCLASS \
 private: \
 	static void StaticRegisterNativesUPopcornFXFile(); \
 	friend POPCORNFX_API class UClass* Z_Construct_UClass_UPopcornFXFile(); \
@@ -37,7 +37,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<UPopcornFXFile*>(this); }
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_STANDARD_CONSTRUCTORS \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPopcornFXFile(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPopcornFXFile) \
@@ -50,7 +50,7 @@ private: \
 public:
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_ENHANCED_CONSTRUCTORS \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPopcornFXFile(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -63,7 +63,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPopcornFXFile); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPopcornFXFile)
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_PRIVATE_PROPERTY_OFFSET \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__m_FileExtension() { return STRUCT_OFFSET(UPopcornFXFile, m_FileExtension); } \
 	FORCEINLINE static uint32 __PPO__m_FileData() { return STRUCT_OFFSET(UPopcornFXFile, m_FileData); } \
 	FORCEINLINE static uint32 __PPO__m_FileVersionId() { return STRUCT_OFFSET(UPopcornFXFile, m_FileVersionId); } \
@@ -71,31 +71,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPopcornFXFile); \
 	FORCEINLINE static uint32 __PPO__AssetDependencies() { return STRUCT_OFFSET(UPopcornFXFile, AssetDependencies); }
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_29_PROLOG
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_GENERATED_BODY_LEGACY \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_29_PROLOG
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_PRIVATE_PROPERTY_OFFSET \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_RPC_WRAPPERS \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_INCLASS \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_STANDARD_CONSTRUCTORS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_PRIVATE_PROPERTY_OFFSET \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_RPC_WRAPPERS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_INCLASS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_GENERATED_BODY \
+#define depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_PRIVATE_PROPERTY_OFFSET \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_INCLASS_NO_PURE_DECLS \
-	CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_ENHANCED_CONSTRUCTORS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_PRIVATE_PROPERTY_OFFSET \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_RPC_WRAPPERS_NO_PURE_DECLS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_INCLASS_NO_PURE_DECLS \
+	depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h_32_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class PopcornFXFile."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID CyberVitesse_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h
+#define CURRENT_FILE_ID depot_Plugins_PopcornFX_Source_PopcornFX_Private_Assets_PopcornFXFile_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

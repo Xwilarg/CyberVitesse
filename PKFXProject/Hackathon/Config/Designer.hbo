@@ -1,0 +1,19 @@
+Version = 1.12.3.42400;
+CModuleConfigBaseEditor	$LOCAL$/ModuleConfigBaseEditor
+{
+}
+CModuleConfigParticleEditor	$LOCAL$/ModuleConfigParticleEditor
+{
+}
+CModuleConfigMeshEditor	$LOCAL$/ModuleConfigMeshEditor
+{
+}
+CModuleConfigSplineEditor	$LOCAL$/ModuleConfigSplineEditor
+{
+}
+CModuleConfigAudioViewer	$LOCAL$/ModuleConfigAudioViewer
+{
+}
+CModuleConfigAtlasViewer	$LOCAL$/ModuleConfigAtlasViewer
+{
+}
