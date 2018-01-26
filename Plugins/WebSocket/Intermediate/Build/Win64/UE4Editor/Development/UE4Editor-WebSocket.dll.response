@@ -16,7 +16,7 @@
 /ignore:4199
 /ignore:4099
 /DELAYLOAD:"d3d12.dll"
-/LIBPATH:"C:\Users\Boutique\Documents\GitHub\CyberVitesse\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Win64\"
+/LIBPATH:"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Source\WebSocket\ThirdParty\lib\Win64\"
 /LIBPATH:"ThirdParty/zlib/v1.2.8/lib/Win64/VS2015"
 /LIBPATH:"ThirdParty/OpenSSL\1.0.2g\lib\Win64\VS2015"
 /NODEFAULTLIB:"LIBCMT"
@@ -30,8 +30,8 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 "C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
-"C:\Users\Boutique\Documents\GitHub\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4Editor\Development\WebSocket\Module.WebSocket.cpp.obj"
-"C:\Users\Boutique\Documents\GitHub\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4Editor\Development\WebSocket\Module.WebSocket.gen.cpp.obj"
+"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4Editor\Development\WebSocket\Module.WebSocket.cpp.obj"
+"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4Editor\Development\WebSocket\Module.WebSocket.gen.cpp.obj"
 "C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\WebSocket\PCLaunch.rc.res"
 "C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
 "delayimp.lib"
@@ -70,7 +70,7 @@
 "C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-JsonUtilities.lib"
 "C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Core.lib"
 "C:\Program Files\Epic Games\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Sockets.lib"
-/OUT:"C:\Users\Boutique\Documents\GitHub\CyberVitesse\Plugins\WebSocket\Binaries\Win64\UE4Editor-WebSocket.dll"
-/IMPLIB:"C:\Users\Boutique\Documents\GitHub\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebSocket.suppressed.lib"
-/PDB:"C:\Users\Boutique\Documents\GitHub\CyberVitesse\Plugins\WebSocket\Binaries\Win64\UE4Editor-WebSocket.pdb"
+/OUT:"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Binaries\Win64\UE4Editor-WebSocket.dll"
+/IMPLIB:"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-WebSocket.suppressed.lib"
+/PDB:"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Binaries\Win64\UE4Editor-WebSocket.pdb"
 /ignore:4078
