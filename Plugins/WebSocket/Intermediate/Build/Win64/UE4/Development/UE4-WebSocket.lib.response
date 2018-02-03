@@ -2,7 +2,7 @@
 /errorReport:prompt
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
-"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Development\WebSocket\Module.WebSocket.cpp.obj"
-"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Development\WebSocket\Module.WebSocket.gen.cpp.obj"
-"C:\Users\Shaps\Documents\CyberVitesse\Intermediate\Build\Win64\UE4\Development\WebSocket\PCLaunch.rc.res"
-/OUT:"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Binaries\Win64\UE4-WebSocket.lib"
+"C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Development\WebSocket\Module.WebSocket.cpp.obj"
+"C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Development\WebSocket\Module.WebSocket.gen.cpp.obj"
+"C:\Users\Boutique\Desktop\FinalCut\Intermediate\Build\Win64\UE4\Development\WebSocket\PCLaunch.rc.res"
+/OUT:"C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Binaries\Win64\UE4-WebSocket.lib"

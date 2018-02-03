@@ -21,12 +21,12 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source"
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Source\WebSocket\Private
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Source
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Source\WebSocket\Public
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Inc\WebSocket
-/I C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Source\WebSocket
+/I C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Source\WebSocket\Private
+/I C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Source\WebSocket\ThirdParty\include\Win64
+/I C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Source
+/I C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Source\WebSocket\Public
+/I C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Inc\WebSocket
+/I C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Source\WebSocket
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.18\Engine\Source\Runtime\Core\Public\Async"
@@ -300,8 +300,8 @@
 /DAUDIOMIXER_API=
 /D_HAS_EXCEPTIONS=0
 /D_HAS_EXCEPTIONS=0
-"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Development\WebSocket\Module.WebSocket.gen.cpp"
-/Fo"C:\Users\Shaps\Documents\CyberVitesse\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Development\WebSocket\Module.WebSocket.gen.cpp.obj"
+"C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Development\WebSocket\Module.WebSocket.gen.cpp"
+/Fo"C:\Users\Boutique\Desktop\FinalCut\Plugins\WebSocket\Intermediate\Build\Win64\UE4\Development\WebSocket\Module.WebSocket.gen.cpp.obj"
 /TP
 /GR-
 /W4

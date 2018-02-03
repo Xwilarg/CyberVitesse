@@ -1,8 +1,0 @@
-/NOLOGO
-/errorReport:prompt
-/MACHINE:x64
-/SUBSYSTEM:WINDOWS
-/LTCG
-"C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Intermediate\Build\Win64\UE4\Shipping\PopcornFXOnDefault\Module.PopcornFXOnDefault.cpp.obj"
-"C:\Users\Shaps\Documents\CyberVitesse\Intermediate\Build\Win64\UE4\Shipping\PopcornFXOnDefault\PCLaunch.rc.res"
-/OUT:"C:\Users\Shaps\Documents\CyberVitesse\Plugins\PopcornFX\Binaries\Win64\UE4-PopcornFXOnDefault-Win64-Shipping.lib"
